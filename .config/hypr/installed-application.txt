@@ -1,0 +1,15 @@
+# --- Hyprshot ---- # 
+hyprshot --> for screenshot 
+Link : https://github.com/Gustash/Hyprshot/blob/main/README.md
+
+# ---- Waybar ---- #
+waybar --> for titlebar in window manager 
+Link : https://github.com/Alexays/Waybar
+
+# ---- Swaync ---- # 
+Swaync --> for modern notification demon
+Link : https://github.com/ErikReider/SwayNotificationCenter
+
+# ---- hyprpaper ---- # 
+hyprpaper --> for wallpaper 
+Link : https://wiki.hyprland.org/Hypr-Ecosystem/hyprpaper/
