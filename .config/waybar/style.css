@@ -57,6 +57,7 @@ button:hover {
 #pulseaudio,
 #clock,
 #battery,
+#power-profiles-daemon,
 #cpu,
 #memory,
 #disk,
@@ -109,9 +110,12 @@ button:hover {
   border-bottom: 2px solid @green;
 }
 
+#power-profiles-daemon {
+  border-bottom: 2px solid @gray;
+}
 #backlight {
   color: @gray;
-  border-bottom: 2px solid @gray;
+  border-bottom: 2px solid #808080;
 }
 /* If workspaces is the leftmost module, omit left margin */
 .modules-left > widget:first-child > #workspaces {

@@ -2,7 +2,23 @@
   "position": "top",
   "modules-left": ["hyprland/workspaces"],
   "modules-center": ["hyprland/window"],
-  "modules-right": ["network", "pulseaudio", "battery", "backlight", "clock"],
+  "modules-right": [
+    "idle_inhibitor",
+    "network",
+    "pulseaudio",
+    "power-profiles-daemon",
+    "battery#bat2",
+    "battery",
+    "backlight",
+    "clock",
+  ],
+  "idle_inhibitor": {
+    "format": "{icon}",
+    "format-icons": {
+      "activated": " ",
+      "deactivated": " ",
+    },
+  },
   "clock": {
     "format": "<span foreground='#f5c2e7'>   </span>{:%a %I:%H %p}",
     "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
@@ -22,6 +38,20 @@
     "format-icons": ["", "", "", "", ""],
     "tooltip-format": "{time}",
   },
+  "battery#bat2": {
+    "bat": "BAT2",
+  },
+  "power-profiles-daemon": {
+    "format": "Power: {icon}",
+    "tooltip-format": "Power profile: {profile}\nDriver: {driver}",
+    "tooltip": true,
+    "format-icons": {
+      "default": "<span foreground='#64748b'></span>",
+      "performance": "<span foreground='#ef4444'></span>",
+      "balanced": "<span foreground='#3b82f6'> </span>",
+      "power-saver": "<span foreground='#22c55e'> </span>",
+    },
+  },
   "network": {
     "format-wifi": "<span size='13000' foreground='#f5e0dc'>  </span>{essid}",
     "format-ethernet": "<span size='13000' foreground='#f5e0dc'>󰤭  </span> Disconnected",
@@ -38,7 +68,7 @@
     "on-click": "pavucontrol",
   },
   "backlight": {
-    // "device": "acpi_video1",
+    "device": "acpi_video1",
     "format": "{percent}% {icon}",
     "format-icons": ["", "", "", "", "", "", "", "", ""],
   },
