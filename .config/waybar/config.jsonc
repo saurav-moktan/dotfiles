@@ -7,7 +7,6 @@
     "network",
     "pulseaudio",
     "power-profiles-daemon",
-    "battery#bat2",
     "battery",
     "backlight",
     "clock",
@@ -37,9 +36,6 @@
     "format-full": "<span size='13000' foreground='#B1E3AD'> </span>{capacity}%",
     "format-icons": ["", "", "", "", ""],
     "tooltip-format": "{time}",
-  },
-  "battery#bat2": {
-    "bat": "BAT2",
   },
   "power-profiles-daemon": {
     "format": "Power: {icon}",
