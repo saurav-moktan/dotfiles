@@ -1,15 +1,23 @@
 # --- Hyprshot ---- # 
-hyprshot --> for screenshot 
+hyprshot = Utility to easily take screenshot in Hyprland
 Link : https://github.com/Gustash/Hyprshot/blob/main/README.md
 
+# ---- hyprpaper ---- # 
+hyprpaper = IPC-controlled wallpaper utility for Hyprland 
+Link : https://wiki.hyprland.org/Hypr-Ecosystem/hyprpaper/
+
+# ---- hyprlock --- # 
+hyprlock = Multi-threaded and GPU-accelerated screen lock for Hyprland 
+Link : https://wiki.hyprland.org/Hypr-Ecosystem/hyprlock/
+
+# ---- hypridle ---- # 
+hypridle --> Idle management daemon 
+Link: https://wiki.hyprland.org/Hypr-Ecosystem/hypridle/ 
+
 # ---- Waybar ---- #
-waybar --> for titlebar in window manager 
+waybar = Highly customizable Wayland bar
 Link : https://github.com/Alexays/Waybar
 
 # ---- Swaync ---- # 
-Swaync --> for modern notification demon
+Swaync = A simple notification daemon with a GTK gui for notifications and the control center
 Link : https://github.com/ErikReider/SwayNotificationCenter
-
-# ---- hyprpaper ---- # 
-hyprpaper --> for wallpaper 
-Link : https://wiki.hyprland.org/Hypr-Ecosystem/hyprpaper/
